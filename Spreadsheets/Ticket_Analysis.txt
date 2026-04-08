@@ -1,0 +1,7 @@
+Used VLOOKUP to map cms_id from ticket to feedbacks
+
+Used formulas:
+=IF(INT(created_at)=INT(closed_at),"Same Day","No")
+=IF(HOUR(created_at)=HOUR(closed_at),"Same Hour","No")
+
+Used COUNTIFS to calculate totals
